@@ -1,4 +1,5 @@
 import DarkToggle from "./DarkToggle"
+import Login from "./Login"
 
 const Header = () => {
   return (
@@ -6,7 +7,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         <div>logo</div>
         <div>
-          <DarkToggle />
+          <Login />
         </div>
       </div>
     </header>

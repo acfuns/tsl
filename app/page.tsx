@@ -1,5 +1,6 @@
+import Footer from "@/components/Footer";
+import ProductImg from "@/components/ProductImg";
 import Header from "@/components/header";
-import { Incr } from "@/components/incr";
 
 export default function Home() {
 
@@ -7,9 +8,9 @@ export default function Home() {
     <div>
       <Header />
       <main className="container mx-auto">
-        <div>gogo</div>
-        <Incr />
+        <ProductImg />
       </main>
+      <Footer />
     </div>
   )
 }

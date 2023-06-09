@@ -6,6 +6,7 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
 	],
+  safelist: ["dark"],
   theme: {
     container: {
       center: true,
